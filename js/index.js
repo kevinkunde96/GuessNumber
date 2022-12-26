@@ -1,7 +1,5 @@
 const form = document.getElementById('form');
 
-console.log(form);
-
 form.addEventListener('submit', handleSubmit);
 
 let status = document.getElementById('status');
